@@ -4,3 +4,49 @@
 [submodule "nanopb"]
 	path = nanopb
 	url = https://github.com/nanopb/nanopb.git
+[submodule "ResponsiveAnalogRead"]
+	path = ResponsiveAnalogRead
+	url = https://github.com/h4yn0nnym0u5e/ResponsiveAnalogRead
+[submodule "initGT911"]
+	path = initGT911
+	url = https://github.com/h4yn0nnym0u5e/initGT911.git
+	branch = dev/teensy-01-async
+[submodule "DS_MCP4018_Library"]
+	path = DS_MCP4018_Library
+	url = https://github.com/h4yn0nnym0u5e/DS_MCP4018_Library
+	branch = dev/ctor-Wire
+[submodule "ADS8688_ADC_ARDUINO"]
+	path = ADS8688_ADC_ARDUINO
+	url = https://github.com/h4yn0nnym0u5e/ADS8688_ADC_ARDUINO
+	branch = dev/use-FlexIOSPI
+[submodule "teensy4_i2c"]
+	path = teensy4_i2c
+	url = https://github.com/h4yn0nnym0u5e/teensy4_i2c
+	branch = dev/no-restart
+[submodule "LittleFS"]
+	path = LittleFS
+	url = https://github.com/h4yn0nnym0u5e/LittleFS
+	branch = feature/more-FRAM-types
+[submodule "FlexIO_t4"]
+	path = FlexIO_t4
+	url = https://github.com/h4yn0nnym0u5e/FlexIO_t4
+	branch = feature/wide-DMA
+[submodule "cores"]
+	path = cores
+	url = https://github.com/h4yn0nnym0u5e/cores
+	branch = feature/usb-midi2-descriptors+DMA
+[submodule "WS2812Serial"]
+	path = WS2812Serial
+	url = https://github.com/h4yn0nnym0u5e/WS2812Serial
+	branch = feature/add-busy
+[submodule "freertos-teensy"]
+	path = freertos-teensy
+	url = https://github.com/h4yn0nnym0u5e/freertos-teensy
+	branch = improved_yield+t4_heap_fix
+[submodule "TFT_eSPI"]
+	path = TFT_eSPI
+	url = https://github.com/h4yn0nnym0u5e/TFT_eSPI
+	branch = dev-Teensy-02-add-FlexIOSPI
+[submodule "TeensyTimerTool"]
+	path = TeensyTimerTool
+	url = https://github.com/luni64/TeensyTimerTool.git
