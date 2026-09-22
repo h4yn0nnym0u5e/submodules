@@ -1,0 +1,6 @@
+[submodule "PacketSerial"]
+	path = PacketSerial
+	url = https://github.com/bakercp/PacketSerial.git
+[submodule "nanopb"]
+	path = nanopb
+	url = https://github.com/nanopb/nanopb.git
