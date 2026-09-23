@@ -29,3 +29,15 @@ You can then edit in VSCode, and flip to the IDE to compile and upload.
 
 This is not necessary when using IDE 2.x
 
+## Change a submodule branch
+I don't think this works properly - it seems to be a complete nightmare to change branches, for some incomprehensible reason
+- `git submodule set-branch -b <branch> <repo>`
+- `git submodule sync`
+- `git submodule update --init --recursive -- remote`
+
+This brute-force sequence may work (example using `freertos-teensy`)
+- `git rm freertos-teensy`
+- `git submodule add --force -b tsandmann_heap_mapping https://github.com/h4yn0nnym0u5e/freertos-teensy`
+- `git submodule init freertos-teensy`
+- `git submodule update freertos-teensy`
+
