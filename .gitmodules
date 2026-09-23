@@ -39,10 +39,6 @@
 	path = WS2812Serial
 	url = https://github.com/h4yn0nnym0u5e/WS2812Serial
 	branch = feature/add-busy
-[submodule "freertos-teensy"]
-	path = freertos-teensy
-	url = https://github.com/h4yn0nnym0u5e/freertos-teensy
-	branch = improved_yield+t4_heap_fix
 [submodule "TFT_eSPI"]
 	path = TFT_eSPI
 	url = https://github.com/h4yn0nnym0u5e/TFT_eSPI
@@ -50,3 +46,7 @@
 [submodule "TeensyTimerTool"]
 	path = TeensyTimerTool
 	url = https://github.com/luni64/TeensyTimerTool.git
+[submodule "freertos-teensy"]
+	path = freertos-teensy
+	url = https://github.com/h4yn0nnym0u5e/freertos-teensy
+	branch = tsandmann_heap_mapping
