@@ -39,5 +39,5 @@ This brute-force sequence may work (example using `freertos-teensy`)
 - `git rm freertos-teensy`
 - `git submodule add --force -b tsandmann_heap_mapping https://github.com/h4yn0nnym0u5e/freertos-teensy`
 - `git submodule init freertos-teensy`
-- `git submodule update freertos-teensy`
+- `git submodule update --remote freertos-teensy`
 

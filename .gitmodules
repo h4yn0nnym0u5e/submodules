@@ -50,3 +50,7 @@
 	path = naturalsort
 	url = https://github.com/h4yn0nnym0u5e/naturalsort
 	branch = dev/no-case-option
+[submodule "freertos-teensy"]
+	path = freertos-teensy
+	url = https://github.com/h4yn0nnym0u5e/freertos-teensy
+	branch = Thundercat
